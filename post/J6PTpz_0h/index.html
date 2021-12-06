@@ -1,9 +1,11 @@
+
+<!DOCTYPE html>
 <html>
   <head>
     
 <meta charset="utf-8" >
 
-<title>nightmare</title>
+<title>关于我 | nightmare</title>
 <meta name="description" content="温故而知新">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -14,6 +16,12 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="https://nightmare2233.github.io/styles/main.css">
 
+
+  
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
+  
+
+  
 
 
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
@@ -75,17 +83,56 @@
 </transition>
 
 
-        <div class="content-container">
+      <div class="content-container">
+        <div class="post-detail">
           
-          <div class="tags-container">
+            <div class="feature-container" style="background-image: url('https://nightmare2233.github.io/post-images/J6PTpz_0h.webp')">
+            </div>
+          
+          <h2 class="post-title">关于我</h2>
+          <div class="post-info post-detail-info">
+            <span><i class="icon-calendar-outline"></i> 2021-12-06</span>
             
-              <a class="tag" href="https://nightmare2233.github.io/tag/bVwQHN3XQ/">start we dream</a>
+              <span>
+                <i class="icon-pricetags-outline"></i>
+                
+                  <a href="https://nightmare2233.github.io/tag/bVwQHN3XQ/">
+                    start we dream
+                    
+                  </a>
+                
+              </span>
             
           </div>
+          <div class="post-content">
+            <p>第一次在GitHub建博客没想到挺好玩的，嘿嘿。<br>
+今后我所有的文章将会投到这里，欢迎有人来看，如果没有也没关系，哈哈，也许有一天就有了呢。</p>
+<!-- more -->
+<figure data-type="image" tabindex="1"><img src="https://nightmare2233.github.io/post-images/1638780613018.webp" alt="" loading="lazy"></figure>
+<!-- more -->
+<p>我承认定数，笃信所有的遇见和错过，都自有旨趣，我提醒我自己，这世间风物辽阔，日月有期，不止一爱一恨，还有四海与四季。<br>
+这个博客肯定要添加更多更有趣的功能了，谁让它是免费的，哈哈哈。</p>
+<!-- more -->
+<figure data-type="image" tabindex="2"><img src="https://nightmare2233.github.io/post-images/1638780695671.png" alt="" loading="lazy"></figure>
+<!-- more -->
+<p>人生最遗憾的，莫过于，轻易地放弃了不该放弃的，固执地坚持了不该坚持的。<br>
+我是nightmare2233，一个网络安全研究者。</p>
 
+          </div>
         </div>
 
-        <div class="site-footer">
+        
+      </div>
+
+      
+        
+          <div id="gitalk-container"></div>
+        
+
+        
+      
+
+      <div class="site-footer">
   <div class="slogan">温故而知新</div>
   <div class="social-container">
     
@@ -112,8 +159,8 @@
 </div>
 
 
-      </div>
-      <script type="application/javascript">
+    </div>
+    <script type="application/javascript">
 
 hljs.initHighlightingOnLoad()
 
@@ -128,7 +175,29 @@ var app = new Vue({
 
 
 
+  
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    <script>
 
-    </div>
+      var gitalk = new Gitalk({
+        clientID: '',
+        clientSecret: '',
+        repo: '',
+        owner: '',
+        admin: [''],
+        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+        distractionFreeMode: false  // Facebook-like distraction free mode
+      })
+
+      gitalk.render('gitalk-container')
+
+    </script>
+  
+
+  
+
+
+
+
   </body>
 </html>
