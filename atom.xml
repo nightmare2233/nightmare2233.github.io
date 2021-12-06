@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://nightmare2233.github.io</id>
     <title>nightmare</title>
-    <updated>2021-12-06T09:04:14.795Z</updated>
+    <updated>2021-12-06T09:06:56.445Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://nightmare2233.github.io"/>
     <link rel="self" href="https://nightmare2233.github.io/atom.xml"/>
@@ -21,16 +21,6 @@
 ]]></summary>
         <content type="html"><![CDATA[<p>第一次在GitHub建博客没想到挺好玩的，嘿嘿。<br>
 今后我所有的文章将会投到这里，欢迎有人来看，如果没有也没关系，哈哈，也许有一天就有了呢。</p>
-<!-- more -->
-<figure data-type="image" tabindex="1"><img src="https://nightmare2233.github.io/post-images/1638780613018.webp" alt="" loading="lazy"></figure>
-<!-- more -->
-<p>我承认定数，笃信所有的遇见和错过，都自有旨趣，我提醒我自己，这世间风物辽阔，日月有期，不止一爱一恨，还有四海与四季。<br>
-这个博客肯定要添加更多更有趣的功能了，谁让它是免费的，哈哈哈。</p>
-<!-- more -->
-<figure data-type="image" tabindex="2"><img src="https://nightmare2233.github.io/post-images/1638780695671.png" alt="" loading="lazy"></figure>
-<!-- more -->
-<p>人生最遗憾的，莫过于，轻易地放弃了不该放弃的，固执地坚持了不该坚持的。<br>
-我是nightmare2233，一个网络安全研究者。</p>
 ]]></content>
     </entry>
 </feed>
